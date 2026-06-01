@@ -4,7 +4,6 @@ class Player:
         self.name = name
         self.age = age
         Player.player_count +=1
-
 t1 = Player("Yash",20)
 t2 = Player("Yash2",21)
 print(Player.player_count)
